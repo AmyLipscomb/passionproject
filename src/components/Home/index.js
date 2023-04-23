@@ -1,10 +1,11 @@
+import React from "react";
 const Home = () => {
 
     return (
-
         <body>
         <header>
             <h1>Amy's Es<span class="sen">sen</span>tials</h1>
+            
     
           {/* <!--Changed the 'div' tag to a navigation tag--> */}
             <nav>

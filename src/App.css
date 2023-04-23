@@ -8,29 +8,30 @@ body {
   background-color: #d9dcd6;
 }
 
-/*I changed the selector to "header" to match the semantic tag in HTML.*/
 header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
+  /* font-family: 'Tangerine', cursive; */
   background-color: #A89B8C;
   color: #ffffff;
 }
 
 header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 50px;
+  /* font-weight: bold; */
 }
 
 header h1 .sen {
   color: #d9dcd6;
 }
-/*I changed the selector to 'nav' to match the semantic tag in HTML. */
+
 nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
 }
 
 header nav ul {
@@ -41,10 +42,40 @@ header nav ul li {
   margin-left: 25px;
 }
 
+/* Books */
+header h2 {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.services {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
 
 
+.services img {
+  max-height: 200px;
+}
 
 
+.services h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
 
 
 
