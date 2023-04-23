@@ -1,12 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+/*I changed the selector to "header" to match the semantic tag in HTML.*/
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #A89B8C;
+  color: #ffffff;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+header h1 .sen {
+  color: #d9dcd6;
+}
+/*I changed the selector to 'nav' to match the semantic tag in HTML. */
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 body {
   margin: 0;
 }
 
-.container {
+.container { */
   /* container will take up the entire width and height of webpage */
-  width: 100vw;
+  /* width: 100vw;
   height: 100vh;
-}
+} */
 
 
 
@@ -23,13 +78,6 @@ body{
   height: 100vh;
   background-color: beige;
 } */
-
-
-
-
-
-
-
 
 
 /* .App {
