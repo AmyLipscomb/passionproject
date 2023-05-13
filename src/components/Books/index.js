@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Books  ()  {
+const Books = () =>  {
     <section className="services" id="books">
     {/* <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization" class="float-left" /> */}
     <h2>Books</h2>
